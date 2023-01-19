@@ -16,6 +16,8 @@
     position: fixed;
     background-color: white;
     z-index: 3;
+    left: 0px;
+    top: 0px;
   }
   
   #top {
@@ -224,13 +226,14 @@
   
   /* Header - End */
 
-  #product-container{
-    padding-left: 100px;
-    padding-right: 100px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 20px;
+#product-container{
+  padding-left: 100px;
+  padding-right: 100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+  
 }
 #product-container>div{
     padding: 10px;
@@ -252,8 +255,5 @@
     margin-bottom: 0; 
 }
 #product-container>div>img{
-    width: 100%;
-}
-img{
     width: 100%;
 }

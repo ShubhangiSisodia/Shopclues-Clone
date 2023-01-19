@@ -1,5 +1,5 @@
 let fetchedData=[];
-fetch("https://6399cde016b0fdad7749cc55.mockapi.io/products")
+fetch("./product.json")
 .then((responseObject) =>{
     return responseObject.json();
 })
