@@ -26,7 +26,9 @@ function getUserData(event){
               localStorage.setItem("signup-data",JSON.stringify(signupDatafromLs))
 
                alert("Signup Successful")
-               window.location.href="signin.html"
+               document.querySelector('.overlay').classList.add('showoverlay')
+               document.querySelector('.loginform').classList.add('showloginform')
+              //  window.location.href="signin.html"
             }
             else
             {
@@ -145,23 +147,24 @@ let  showbtan=document.querySelector('#login')
 
 //  login code start here///
 
+
 let userDatafromLS=JSON.parse(localStorage.getItem("signup-data"))||[]
 let form_login=document.querySelector("#form_page")
 
-   form_login.addEventListener("submit", (event)=>{
-    event.preventDefault()
+form_login.addEventListener("submit", (event)=>{
+  event.preventDefault()
     let userData={
       userName:form_login.user_name.value,
       password:form_login.password.value
       }
 
-     console.log(userData)
+        
       if(checkEmailPassword(userData.userName,userData.password)==true)
       {
 
         localStorage.setItem('guest',(userData.userName))
           alert("Login Successful")
-          window.location.href="index.html"
+          window.location.href="/index.html"
       }
       else
       {
@@ -170,13 +173,15 @@ let form_login=document.querySelector("#form_page")
    })
 
     function checkEmailPassword(userName,password){
-            
+             
+         
            let check=false
         userDatafromLS.forEach(function(el){
            
            if(el.userName===userName && el.password===password)
            {
                 check=true
+           
            }
        })
 
@@ -195,3 +200,11 @@ let form_login=document.querySelector("#form_page")
         guest.style.color="red"
 
       }
+
+   let Image=document.querySelector('#link')
+      Image.addEventListener('click',()=>{
+        window.location.href="/index.html"
+        console.log('check')
+      })
+
+       
