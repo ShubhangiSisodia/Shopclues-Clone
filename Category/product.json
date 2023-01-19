@@ -1,0 +1,602 @@
+[
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/109500/280/1/150659652-109500878-1660933448.jpg",
+        "price":100,
+        "name": "Nice White Shirt",
+        "rating":4,
+        "reviews":20,
+        "size":"L",
+        "type":"Formal",
+        "color":"white"
+    }, 
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/33951/280/1/108871142-33951722-1665562328.jpg",
+        "price":200,
+        "name": "Casual Blue Shirt",
+        "rating":4.5,
+        "reviews":30,
+        "size":"M",
+        "type":"Casual",
+        "color":"blue"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/89621/280/1/139668135-89621182-1653750873.jpg",
+        "price":300,
+        "name": "Black Shirt",
+        "rating":3.7,
+        "reviews":15,
+        "size":"S",
+        "type":"Formal",
+        "color":"black"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/109500/280/1/150659652-109500878-1660933448.jpg",
+        "price":500,
+        "name": "Red Shirt",
+        "rating":2.8,
+        "reviews":17,
+        "size":"XL",
+        "type":"Casual",
+        "color":"red"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/109500/280/1/150659652-109500878-1660933448.jpg",
+        "price":100,
+        "name": "Nice White Shirt",
+        "rating":4,
+        "reviews":20,
+        "size":"L",
+        "type":"Formal",
+        "color":"white"
+    }, 
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/33951/280/1/108871142-33951722-1665562328.jpg",
+        "price":200,
+        "name": "Casual Blue Shirt",
+        "rating":4.5,
+        "reviews":30,
+        "size":"M",
+        "type":"Casual",
+        "color":"blue"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/89621/280/1/139668135-89621182-1653750873.jpg",
+        "price":300,
+        "name": "Black Shirt",
+        "rating":3.7,
+        "reviews":15,
+        "size":"S",
+        "type":"Formal",
+        "color":"black"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/109500/280/1/150659652-109500878-1660933448.jpg",
+        "price":500,
+        "name": "Red Shirt",
+        "rating":2.8,
+        "reviews":17,
+        "size":"XL",
+        "type":"Casual",
+        "color":"red"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/109500/280/1/150659652-109500878-1660933448.jpg",
+        "price":100,
+        "name": "Nice White Shirt",
+        "rating":4,
+        "reviews":20,
+        "size":"L",
+        "type":"Formal",
+        "color":"white"
+    }, 
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/33951/280/1/108871142-33951722-1665562328.jpg",
+        "price":200,
+        "name": "Casual Blue Shirt",
+        "rating":4.5,
+        "reviews":30,
+        "size":"M",
+        "type":"Casual",
+        "color":"blue"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/89621/280/1/139668135-89621182-1653750873.jpg",
+        "price":300,
+        "name": "Black Shirt",
+        "rating":3.7,
+        "reviews":15,
+        "size":"S",
+        "type":"Formal",
+        "color":"black"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/109500/280/1/150659652-109500878-1660933448.jpg",
+        "price":500,
+        "name": "Red Shirt",
+        "rating":2.8,
+        "reviews":17,
+        "size":"XL",
+        "type":"Casual",
+        "color":"red"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/109500/280/1/150659652-109500878-1660933448.jpg",
+        "price":100,
+        "name": "Nice White Shirt",
+        "rating":4,
+        "reviews":20,
+        "size":"L",
+        "type":"Formal",
+        "color":"white"
+    }, 
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/33951/280/1/108871142-33951722-1665562328.jpg",
+        "price":200,
+        "name": "Casual Blue Shirt",
+        "rating":4.5,
+        "reviews":30,
+        "size":"M",
+        "type":"Casual",
+        "color":"blue"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/89621/280/1/139668135-89621182-1653750873.jpg",
+        "price":300,
+        "name": "Black Shirt",
+        "rating":3.7,
+        "reviews":15,
+        "size":"S",
+        "type":"Formal",
+        "color":"black"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/109500/280/1/150659652-109500878-1660933448.jpg",
+        "price":500,
+        "name": "Red Shirt",
+        "rating":2.8,
+        "reviews":17,
+        "size":"XL",
+        "type":"Casual",
+        "color":"red"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/109500/280/1/150659652-109500878-1660933448.jpg",
+        "price":100,
+        "name": "Nice White Shirt",
+        "rating":4,
+        "reviews":20,
+        "size":"L",
+        "type":"Formal",
+        "color":"white"
+    }, 
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/33951/280/1/108871142-33951722-1665562328.jpg",
+        "price":200,
+        "name": "Casual Blue Shirt",
+        "rating":4.5,
+        "reviews":30,
+        "size":"M",
+        "type":"Casual",
+        "color":"blue"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/89621/280/1/139668135-89621182-1653750873.jpg",
+        "price":300,
+        "name": "Black Shirt",
+        "rating":3.7,
+        "reviews":15,
+        "size":"S",
+        "type":"Formal",
+        "color":"black"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/109500/280/1/150659652-109500878-1660933448.jpg",
+        "price":500,
+        "name": "Red Shirt",
+        "rating":2.8,
+        "reviews":17,
+        "size":"XL",
+        "type":"Casual",
+        "color":"red"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/109500/280/1/150659652-109500878-1660933448.jpg",
+        "price":100,
+        "name": "Nice White Shirt",
+        "rating":4,
+        "reviews":20,
+        "size":"L",
+        "type":"Formal",
+        "color":"white"
+    }, 
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/33951/280/1/108871142-33951722-1665562328.jpg",
+        "price":200,
+        "name": "Casual Blue Shirt",
+        "rating":4.5,
+        "reviews":30,
+        "size":"M",
+        "type":"Casual",
+        "color":"blue"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/89621/280/1/139668135-89621182-1653750873.jpg",
+        "price":300,
+        "name": "Black Shirt",
+        "rating":3.7,
+        "reviews":15,
+        "size":"S",
+        "type":"Formal",
+        "color":"black"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/109500/280/1/150659652-109500878-1660933448.jpg",
+        "price":500,
+        "name": "Red Shirt",
+        "rating":2.8,
+        "reviews":17,
+        "size":"XL",
+        "type":"Casual",
+        "color":"red"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/109500/280/1/150659652-109500878-1660933448.jpg",
+        "price":100,
+        "name": "Nice White Shirt",
+        "rating":4,
+        "reviews":20,
+        "size":"L",
+        "type":"Formal",
+        "color":"white"
+    }, 
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/33951/280/1/108871142-33951722-1665562328.jpg",
+        "price":200,
+        "name": "Casual Blue Shirt",
+        "rating":4.5,
+        "reviews":30,
+        "size":"M",
+        "type":"Casual",
+        "color":"blue"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/89621/280/1/139668135-89621182-1653750873.jpg",
+        "price":300,
+        "name": "Black Shirt",
+        "rating":3.7,
+        "reviews":15,
+        "size":"S",
+        "type":"Formal",
+        "color":"black"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/109500/280/1/150659652-109500878-1660933448.jpg",
+        "price":500,
+        "name": "Red Shirt",
+        "rating":2.8,
+        "reviews":17,
+        "size":"XL",
+        "type":"Casual",
+        "color":"red"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/109500/280/1/150659652-109500878-1660933448.jpg",
+        "price":100,
+        "name": "Nice White Shirt",
+        "rating":4,
+        "reviews":20,
+        "size":"L",
+        "type":"Formal",
+        "color":"white"
+    }, 
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/33951/280/1/108871142-33951722-1665562328.jpg",
+        "price":200,
+        "name": "Casual Blue Shirt",
+        "rating":4.5,
+        "reviews":30,
+        "size":"M",
+        "type":"Casual",
+        "color":"blue"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/89621/280/1/139668135-89621182-1653750873.jpg",
+        "price":300,
+        "name": "Black Shirt",
+        "rating":3.7,
+        "reviews":15,
+        "size":"S",
+        "type":"Formal",
+        "color":"black"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/109500/280/1/150659652-109500878-1660933448.jpg",
+        "price":500,
+        "name": "Red Shirt",
+        "rating":2.8,
+        "reviews":17,
+        "size":"XL",
+        "type":"Casual",
+        "color":"red"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/109500/280/1/150659652-109500878-1660933448.jpg",
+        "price":100,
+        "name": "Nice White Shirt",
+        "rating":4,
+        "reviews":20,
+        "size":"L",
+        "type":"Formal",
+        "color":"white"
+    }, 
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/33951/280/1/108871142-33951722-1665562328.jpg",
+        "price":200,
+        "name": "Casual Blue Shirt",
+        "rating":4.5,
+        "reviews":30,
+        "size":"M",
+        "type":"Casual",
+        "color":"blue"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/89621/280/1/139668135-89621182-1653750873.jpg",
+        "price":300,
+        "name": "Black Shirt",
+        "rating":3.7,
+        "reviews":15,
+        "size":"S",
+        "type":"Formal",
+        "color":"black"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/109500/280/1/150659652-109500878-1660933448.jpg",
+        "price":500,
+        "name": "Red Shirt",
+        "rating":2.8,
+        "reviews":17,
+        "size":"XL",
+        "type":"Casual",
+        "color":"red"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/109500/280/1/150659652-109500878-1660933448.jpg",
+        "price":100,
+        "name": "Nice White Shirt",
+        "rating":4,
+        "reviews":20,
+        "size":"L",
+        "type":"Formal",
+        "color":"white"
+    }, 
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/33951/280/1/108871142-33951722-1665562328.jpg",
+        "price":200,
+        "name": "Casual Blue Shirt",
+        "rating":4.5,
+        "reviews":30,
+        "size":"M",
+        "type":"Casual",
+        "color":"blue"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/89621/280/1/139668135-89621182-1653750873.jpg",
+        "price":300,
+        "name": "Black Shirt",
+        "rating":3.7,
+        "reviews":15,
+        "size":"S",
+        "type":"Formal",
+        "color":"black"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/109500/280/1/150659652-109500878-1660933448.jpg",
+        "price":500,
+        "name": "Red Shirt",
+        "rating":2.8,
+        "reviews":17,
+        "size":"XL",
+        "type":"Casual",
+        "color":"red"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/109500/280/1/150659652-109500878-1660933448.jpg",
+        "price":100,
+        "name": "Nice White Shirt",
+        "rating":4,
+        "reviews":20,
+        "size":"L",
+        "type":"Formal",
+        "color":"white"
+    }, 
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/33951/280/1/108871142-33951722-1665562328.jpg",
+        "price":200,
+        "name": "Casual Blue Shirt",
+        "rating":4.5,
+        "reviews":30,
+        "size":"M",
+        "type":"Casual",
+        "color":"blue"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/89621/280/1/139668135-89621182-1653750873.jpg",
+        "price":300,
+        "name": "Black Shirt",
+        "rating":3.7,
+        "reviews":15,
+        "size":"S",
+        "type":"Formal",
+        "color":"black"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/109500/280/1/150659652-109500878-1660933448.jpg",
+        "price":500,
+        "name": "Red Shirt",
+        "rating":2.8,
+        "reviews":17,
+        "size":"XL",
+        "type":"Casual",
+        "color":"red"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/109500/280/1/150659652-109500878-1660933448.jpg",
+        "price":100,
+        "name": "Nice White Shirt",
+        "rating":4,
+        "reviews":20,
+        "size":"L",
+        "type":"Formal",
+        "color":"white"
+    }, 
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/33951/280/1/108871142-33951722-1665562328.jpg",
+        "price":200,
+        "name": "Casual Blue Shirt",
+        "rating":4.5,
+        "reviews":30,
+        "size":"M",
+        "type":"Casual",
+        "color":"blue"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/89621/280/1/139668135-89621182-1653750873.jpg",
+        "price":300,
+        "name": "Black Shirt",
+        "rating":3.7,
+        "reviews":15,
+        "size":"S",
+        "type":"Formal",
+        "color":"black"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/109500/280/1/150659652-109500878-1660933448.jpg",
+        "price":500,
+        "name": "Red Shirt",
+        "rating":2.8,
+        "reviews":17,
+        "size":"XL",
+        "type":"Casual",
+        "color":"red"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/109500/280/1/150659652-109500878-1660933448.jpg",
+        "price":100,
+        "name": "Nice White Shirt",
+        "rating":4,
+        "reviews":20,
+        "size":"L",
+        "type":"Formal",
+        "color":"white"
+    }, 
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/33951/280/1/108871142-33951722-1665562328.jpg",
+        "price":200,
+        "name": "Casual Blue Shirt",
+        "rating":4.5,
+        "reviews":30,
+        "size":"M",
+        "type":"Casual",
+        "color":"blue"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/89621/280/1/139668135-89621182-1653750873.jpg",
+        "price":300,
+        "name": "Black Shirt",
+        "rating":3.7,
+        "reviews":15,
+        "size":"S",
+        "type":"Formal",
+        "color":"black"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/109500/280/1/150659652-109500878-1660933448.jpg",
+        "price":500,
+        "name": "Red Shirt",
+        "rating":2.8,
+        "reviews":17,
+        "size":"XL",
+        "type":"Casual",
+        "color":"red"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/109500/280/1/150659652-109500878-1660933448.jpg",
+        "price":100,
+        "name": "Nice White Shirt",
+        "rating":4,
+        "reviews":20,
+        "size":"L",
+        "type":"Formal",
+        "color":"white"
+    }, 
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/33951/280/1/108871142-33951722-1665562328.jpg",
+        "price":200,
+        "name": "Casual Blue Shirt",
+        "rating":4.5,
+        "reviews":30,
+        "size":"M",
+        "type":"Casual",
+        "color":"blue"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/89621/280/1/139668135-89621182-1653750873.jpg",
+        "price":300,
+        "name": "Black Shirt",
+        "rating":3.7,
+        "reviews":15,
+        "size":"S",
+        "type":"Formal",
+        "color":"black"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/109500/280/1/150659652-109500878-1660933448.jpg",
+        "price":500,
+        "name": "Red Shirt",
+        "rating":2.8,
+        "reviews":17,
+        "size":"XL",
+        "type":"Casual",
+        "color":"red"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/109500/280/1/150659652-109500878-1660933448.jpg",
+        "price":100,
+        "name": "Nice White Shirt",
+        "rating":4,
+        "reviews":20,
+        "size":"L",
+        "type":"Formal",
+        "color":"white"
+    }, 
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/33951/280/1/108871142-33951722-1665562328.jpg",
+        "price":200,
+        "name": "Casual Blue Shirt",
+        "rating":4.5,
+        "reviews":30,
+        "size":"M",
+        "type":"Casual",
+        "color":"blue"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/89621/280/1/139668135-89621182-1653750873.jpg",
+        "price":300,
+        "name": "Black Shirt",
+        "rating":3.7,
+        "reviews":15,
+        "size":"S",
+        "type":"Formal",
+        "color":"black"
+    },
+    {
+        "image": "https://cdn.shopclues.com/images1/thumbnails/109500/280/1/150659652-109500878-1660933448.jpg",
+        "price":500,
+        "name": "Red Shirt",
+        "rating":2.8,
+        "reviews":17,
+        "size":"XL",
+        "type":"Casual",
+        "color":"red"
+    }
+]
