@@ -100,6 +100,7 @@
                 color: #212121;
                 position: relative;
                 font-size: 90%;
+                cursor: pointer;
               "
               >Sign In</span
             >
@@ -177,13 +178,39 @@
              <div id="massage"></div>
               
              <button>Register</button>
-             <h4>Already a member? <a href="signin.html">Log in</a></h4>
+             <h4>Already a member? <a>Log in</a></h4>
              
             </form>
          </div>
       </div>
 
     </div>
+
+   <!-- login start here -->
+
+
+  <div class="overlay"></div>
+    <div class="loginform">
+      <img src="https://images.shopclues.com/images/ui/shopclues_logo@2x.png" width="150px" style="margin-bottom: 40px;" alt="">
+       <span>&times</span>
+       <form  id="form_page">
+           <div>
+               <label for="">UserName</label>
+               <input type="text" id="user_name">
+               <hr class="login-line">
+           </div> 
+           <div>
+               <label for="">Password</label>
+               <input type="password"  id="password">
+               <hr class="login-line">
+           </div>
+           <button>Login</button>
+       </form>
+         <h4>Not registered Yet? <a href="signup.html"> Create an account</a></h4>
+    </div>
+
+          
+           
 
 
     <!-- form ends here -->

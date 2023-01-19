@@ -91,6 +91,7 @@
     
     text-decoration: none;
     color:#ff7757 ;
+    cursor: pointer;
 
   }
   #form label{
@@ -101,6 +102,102 @@
   font-size: 14px;
  }
  /* form css ends here */
+ /* login start here */
+
+ .btn-login{
+  padding: 10px 15px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.overlay{
+  width: 100%;
+  position: fixed;
+  top:0%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  z-index: -1;
+  transition: 1s;
+}
+.showoverlay{
+  opacity: 1;
+  z-index: 1;
+}
+.closeoverlay{
+  z-index: -1;
+  opacity: 0;
+}
+.loginform{
+  width: 400px;
+  height: 300px;
+  background-color: white;
+  padding: 25px 40px 25px 40px ;
+  position: absolute;
+  transition: 1s;
+  left: 50%;
+  top: -50%;
+  transform: translate(-50%,-50%);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  z-index: 9;
+
+}
+.loginform h4{
+  color: grey;
+  font-size: 15px;
+}
+.loginform a{
+  text-decoration: none;
+  color:#ff7757 ;
+  font-size: 13px;
+}
+form input{
+  outline: none;
+  border: none;
+}
+.login-line{
+  margin-top: -15px;
+}
+.loginform button{
+  display: inline;
+  text-align: center;
+  margin-left: 15em;
+  font-size: 16px;
+  color: white;
+  margin-top: 12px;
+  width: 10em;
+  border-radius: 5px;
+}
+.showloginform{
+ top:50% ;
+}
+.closeloginform{
+  top: -50px;
+  z-index: 0;
+  transition: 3s;
+}
+.loginform input{
+  width: 100%;
+  height: 35px;
+  margin-bottom: 15px;
+}
+/* .loginform  button{
+  font-size: 20px;
+} */
+
+.loginform span{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 30px;
+  height: 30px;
+  background-color:rgb(230, 89, 89);
+  text-align:center;
+  line-height: 30px;
+  color: white;
+  cursor: pointer;
+
+}
 
 
  /* Header - Start */
