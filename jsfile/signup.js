@@ -1,3 +1,5 @@
+let gestName=localStorage.getItem('guest')||null
+let guest=document.querySelector('#guest')
 
 let signupDatafromLs=JSON.parse(localStorage.getItem("signup-data"))||[]
 let form=document.querySelector("#form")
@@ -113,3 +115,83 @@ function checkEmail(email){
     }
       
 }
+
+
+let  showbtan=document.querySelector('#login')
+
+ showbtan.addEventListener('click',()=>{
+    document.querySelector('.overlay').classList.add('showoverlay')
+      document.querySelector('.loginform').classList.add('showloginform')
+ })
+
+ let closeLogin=document.querySelector('.loginform>span')
+
+ closeLogin.addEventListener('click',()=>{
+  document.querySelector('.overlay').classList.add('closeoverlay')
+  document.querySelector('.loginform').classList.add('closeloginform')
+  
+  setTimeout(()=>{
+    
+    location.reload()
+    },1000)
+ })
+
+ let registerLoginbtn=document.querySelector('#form a')
+
+ registerLoginbtn.addEventListener('click',()=>{
+  document.querySelector('.overlay').classList.add('showoverlay')
+      document.querySelector('.loginform').classList.add('showloginform')
+ })
+
+//  login code start here///
+
+let userDatafromLS=JSON.parse(localStorage.getItem("signup-data"))||[]
+let form_login=document.querySelector("#form_page")
+
+   form_login.addEventListener("submit", (event)=>{
+    event.preventDefault()
+    let userData={
+      userName:form_login.user_name.value,
+      password:form_login.password.value
+      }
+
+     console.log(userData)
+      if(checkEmailPassword(userData.userName,userData.password)==true)
+      {
+
+        localStorage.setItem('guest',(userData.userName))
+          alert("Login Successful")
+          window.location.href="index.html"
+      }
+      else
+      {
+          alert("Login Faild Wrong User Credentials")
+      }
+   })
+
+    function checkEmailPassword(userName,password){
+            
+           let check=false
+        userDatafromLS.forEach(function(el){
+           
+           if(el.userName===userName && el.password===password)
+           {
+                check=true
+           }
+       })
+
+       if(check==true)
+       {
+         return true
+        }
+        else{
+          return false
+        }
+      }
+      
+      if(gestName.length>0)
+      {
+        guest.innerText=gestName
+        guest.style.color="red"
+
+      }
