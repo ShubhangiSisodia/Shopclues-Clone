@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* icon css */
+.fa-star{
+    color: orange;
+}
+
+.fa-tag{
+    rotate: 90deg;
+    color: #24a3b5;
+   
+}
+.fa-xmark{
+    color: red;
+}
+.fa-check{
+    color:rgb(7, 227, 227);
+}
+.fa-rotate-left{
+    color: rgb(176, 176, 176);
+}
+.fa-credit-card{
+    color: rgb(176, 176, 176);
+}
+
+body{
+    background-color: rgb(231, 246, 246);
+}
+#box{
+    padding-top:15% ;
+}
+
+/* 1a css */
+#section1{
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding: 3% 2% 2% 2%;
+    border: 1px solid white;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+#productimg{
+    display: flex;
+    height: 70%;
+}
+
+
+
+
+/* 2nd div css */
+#box2{
+    width: 94%;
+    margin: auto;
+    margin-top: 1%;
+    margin-left: 3%;
+    border: 1px solid white;
+    border-radius: 5px;
+    /* background-color: white; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+#box2 #head{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+#head h2{
+    margin: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color:#555;
+}
+#head> div:hover{
+    height: 50px;
+    color: #24a3b5;
+    border-bottom:3px solid #24a3b5;
+}
+#head h2:hover{
+    color: #24a3b5;
+}
+
+#prodCards{
+    width: 100%;
+    margin-top: 6px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    background-color: white;
+}
+#prodCards>div{
+    height: 280px;
+    padding-top: 2%;
+    padding-left: 4%;
+    padding-right: 3.5%;
+    padding-bottom: 0%;
+    text-align: left;
+}
+#prodCards>div:hover{
+border: 1px solid rgb(15, 211, 211);
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+#prodCards>div>img{
+    height:60%;
+    margin: auto;
+}
+
+#prodCards>div>p{
+    font-size: 14px;
+    font-weight: 500;
+    color:#555;
+}
+
+
+
+
+
+
+
+
+/* 3rd div css */
+#box3{
+    width: 94%;
+    margin: auto;
+    margin-top: 5%;
+}
+#box3>p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 1%;
+}
+
+#dropdown{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    background-color: white;
+}
+#dropdown>div{
+ padding: 3%;
+ padding-bottom: 1%;
+}
+#dropdown h4{
+    margin-top: 2%;
+    font-weight: 600;
+    color:#555;
+}
+#dropdown>div:hover{
+    border-bottom: 2px solid #24a3b5
+}
+#dropdown>div:hover > h4{
+    color: #24a3b5;
+}
+#para{
+    margin-top: 5px;
+    background-color: white;
+    padding: 3%;
+}
+#para p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #555;
+}
