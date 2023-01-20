@@ -227,13 +227,13 @@
   /* Header - End */
 
 #product-container{
-  padding-left: 100px;
-  padding-right: 100px;
+  width: 75%;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(4,1fr);
   gap: 20px;
-  
+  background-color: white;
+  margin-top: 0;
 }
 #product-container>div{
     padding: 10px;
@@ -256,4 +256,14 @@
 }
 #product-container>div>img{
     width: 100%;
+}
+#main{
+  display: flex;
+  margin-top: 250px;
+  align-items: flex-start;
+}
+#sort{
+  width: 23%;
+  margin: auto;
+  background-color: white;
 }
