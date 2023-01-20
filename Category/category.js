@@ -1,4 +1,4 @@
-let fetchedData=[];
+
 fetch("./product.json")
 .then((responseObject) =>{
     return responseObject.json();
@@ -11,7 +11,20 @@ fetch("./product.json")
 .catch((error) =>{
     console.log(error);
 })
+// async function loadProducts() {
+//     try{
+//         const response = await fetch('./product.json');
+//         let fetchedData = await response.json();
+//         displayProducts(fetchedData);
+//     }catch(error){
+//         console.log(error);
+//     }
+// }
+// loadProducts();
+// import fetchedData from './product.json' assert { type: 'JSON' };
 
+// let fetchedData=require('./product.json');
+// displayProducts(fetchedData);
 function displayProducts(data){
     document.querySelector("#product-container").innerHTML=null;
     data.forEach((element) => {
