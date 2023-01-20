@@ -101,10 +101,8 @@
                   font-weight: 500;
                   color: #212121;
                   position: relative;
-                  font-size: 90%;
-                "
-                > <a href="/signup.html">Sign In</a></span
-              >
+                  font-size: 90%;"> 
+                </span>
             </h4>
           </div>
         </div>
@@ -2400,38 +2398,5 @@
     x[myIndex - 1].style.display = "block";
     // x[myIndex-1].style.border-radius = "7px"
     setTimeout(displayImgChange, 3000); // Change image every 2 seconds
-  }
-</script>
-<script>
-  var systemStatus = localStorage.getItem("system");
-  var userStatus = localStorage.getItem("user");
-  document.getElementById("login").addEventListener("click", function () {
-    if (systemStatus == null) {
-      window.location.href = "./login.html";
-    } else if (systemStatus == "online") {
-      localStorage.removeItem("system");
-      localStorage.removeItem("user");
-      window.location.reload();
-      alert("you are successfully logged out.");
-    }
-  });
-
-  if (systemStatus == "online") {
-    document.getElementById("guest").innerHTML = userStatus;
-    document.getElementById("login").innerHTML = "Log Out";
-  }
-</script>
-<script>
-  var cartArr = JSON.parse(localStorage.getItem("cartDatabase")) || [];
-  var cartIcon = document.querySelector("#cartIcon");
-  cartIcon.addEventListener("click", cartPage);
-
-  function cartPage(){
-    if(cartArr.length == 0){
-      window.location.href = "cart.html";
-    }
-    else{
-      window.location.href = "cart1.html";
-    }
   }
 </script>
