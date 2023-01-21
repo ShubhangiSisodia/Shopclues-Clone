@@ -661,6 +661,18 @@ function displayProducts(data){
         // more.append(star,rating);
         card.append(image,name,price,rating);
         document.querySelector("#product-container").append(card);
+        card.addEventListener("mouseover",()=>{
+            card.style.borderColor="blue";
+            card.style.boxShadow="rgba(0, 0, 0, 0.35) 0px 5px 15px";
+            setTimeout(()=>{
+                card.style.borderColor="";
+                card.style.boxShadow="";
+            },1000)
+        },false)
+
+        card.addEventListener("click",()=>{
+            localStorage.setItem("product",JSON.stringify(element));
+            // window.location.href="./product.html;
         })
     })
 }
