@@ -32,6 +32,9 @@
     font-size: 20px;
     color: #555;
 }
+.fa-shield{
+    color: #24a3b5;
+}
 
 body{
     background-color: rgb(231, 246, 246);
@@ -74,6 +77,11 @@ body{
 }
 .lighttext{
     color: #555;
+    
+}
+.colortext{
+    color: #24a3b5;
+    font-weight: 500;
 }
 #prodDesc .colortext{
     color: #24a3b5;
@@ -375,17 +383,27 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
 
 /* 4rd div */
+#box4{
+    width: 94%;
+    margin: auto;
+    margin-top: 5%;
+}
+#box4>h3{
+    font-size: 20px;
+    margin-bottom: 2%;
+}
 #RatingAndScale{
     display: flex;
     background-color: white;
     margin: auto;
-    width: 90%;
-    height: 400px;
-    padding: 2rem;
-    justify-content: space-around;
+    width: 80%;
+    /* height: 400px; */
+    padding: 2rem 8.5rem;
+    /* justify-content: space-around; */
 }
 #R{
 width: 30%;
+margin-left: 8%;
 }
 #NoOfStars{
     margin-left: 4%;
@@ -393,7 +411,7 @@ width: 30%;
     height: 100px;
     border: 1px solid  #eff7fa;
     border-radius: 50%;
-    font-size: 35px;
+   
     font-weight: 600;
     padding: 0.6rem;
     color: #ff8f4d;
@@ -408,10 +426,127 @@ width: 30%;
     justify-content: center;
     align-items: center;
 }
+#NoOfStars>div>p{
+    font-size: 60px;
+}
+
 .stars{
     margin-left: 5%;
     margin-top: 5%;
 }
 .str{
-    color: white;
+    color: bisque;
+}
+
+#scale{
+    width: 40%;
+    margin-left: 5%;
+}
+#scale>div{
+    display: flex;
+    margin: 0.5rem;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+#scale>div>div{
+    width: 70%;
+    height: 5px;
+    background-color: #e3e3e3;
+    /* border-radius: 10px; */
+    display: flex;
+    align-items: center;
+}
+#fivestar{
+    width: 21%;
+    /* height: 100%; */
+    background-color: #00bc71;
+    border: 2px solid #00bc71;
+    border-radius: 10px;
+}
+#fourstar{
+    width: 8%;
+    /* height: 100%; */
+    background-color: #00bc71;
+    border: 2px solid #00bc71;
+    border-radius: 10px;
+}
+#threestar{
+    width: 45%;
+    /* height: 100%; */
+    background-color:#fb760b;
+    border: 2px solid #fb760b;
+    border-radius: 10px;
+}
+#twostar{
+    width: 15%;
+    /* height: 100%; */
+    background-color:#ff655f;
+    border: 2px solid #ff655f;
+    border-radius: 10px;
+}
+#onestar{
+    width: 13%;
+    /* height: 100%; */
+    background-color:red;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+#scale #review{
+    width: 70%;
+    margin-top: 5%;
+    /* background-color: antiquewhite; */
+}
+#review>p{
+    margin: auto;
+    /* margin-left: 30%; */
+}
+#combox{
+    background-color: white;
+    width: 99.7%;
+    margin: auto;
+}
+#btop{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+    padding: 2% 4%;
+    border-top: 1px solid #e3e3e3;
+}
+#comdetail{
+    display: flex;
+}
+#comdetail>p{
+    font-size: 18px;
+    margin-right: 0.5rem;
+}
+
+#btop>div>p{
+    font-size: 12px;
+    color: #9a9696;
+    line-height: 1.2rem;
+}
+#btop>div>p:nth-child(2){
+  font-size: 14px;
+  margin-bottom: 1rem;
+}
+#bal{
+    margin-left: 20%;
+    font-size: 12px;
+    color: #9a9696;
+}
+#feed{
+    margin-left: 35%;
+    color: #9a9696;
+    display: flex;
+    align-items: center;
+}
+#warn{
+    margin-top: 5%;
+    margin-bottom: 2%;
+   
+}
+#warn>span>a{
+    text-decoration: none;
+    color: #24a3b5;
 }
