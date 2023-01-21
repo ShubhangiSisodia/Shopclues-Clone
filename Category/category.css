@@ -226,33 +226,30 @@
   
   /* Header - End */
 
-#product-container{
+#product-container1{
   width: 75%;
+  background-color: white;
+  margin-top: 0;
+}
+#product-container{
   margin: auto;
   display: grid;
   grid-template-columns: repeat(4,1fr);
   gap: 20px;
-  background-color: white;
-  margin-top: 0;
 }
 #product-container>div{
     padding: 10px;
     margin: auto;
     border-style: solid;
-    border-color: gray;
+    border-color: white;
     border-width: 1px;
     border-radius: 2px;
     padding-bottom: 0;
-}
-#product-container>div>div{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 0;
-    margin-bottom: 0;
+    height: 400px;
 }
 #product-container>div>*{
-    margin-top: 0;
-    margin-bottom: 0; 
+    margin-top: 7px;
+    margin-bottom: 7px; 
 }
 #product-container>div>img{
     width: 100%;
@@ -266,4 +263,5 @@
   width: 23%;
   margin: auto;
   background-color: white;
+  margin-top: 0;
 }
