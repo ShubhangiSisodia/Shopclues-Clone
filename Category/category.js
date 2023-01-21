@@ -50,9 +50,9 @@ function displayProducts(data){
         card.append(image,name,price,rating);
         document.querySelector("#product-container").append(card);
 
-        // card.addEventListener("click",()=>{
-        //     localStorage.setItem("product",JSON.stringify(element));
-        //     window.location.href="./product.html";
-        // })
+        card.addEventListener("click",()=>{
+            localStorage.setItem("product",JSON.stringify(element));
+            window.location.href="../Product/product.html";
+        })
     })
 }

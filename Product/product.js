@@ -15,7 +15,7 @@ function renderProduct(){
         <div id="prodDesc">
             <h3>${p.name}</h3>
             <div class="flexit"><p class="colortext">Venerate</p> <p class="lighttext">Product Id: 152689876</p></div>
-            <div class="flexit"><p id="rating">3<P> &nbsp;&nbsp;<i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <div class="flexit"><p id="rating">3<P> &nbsp;&nbsp;<i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star str"></i><i class="fa-solid fa-star str"></i>
                 &nbsp;&nbsp;
                 (69) |<p class="colortext"> 2 Reviews <P>
             </div>
