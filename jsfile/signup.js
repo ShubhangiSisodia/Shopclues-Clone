@@ -1,3 +1,4 @@
+
 let gestName=localStorage.getItem('guest')||null
 let guest=document.querySelector('#guest')
 
@@ -23,9 +24,11 @@ function getUserData(event){
             {
               signupDatafromLs.push(userData)
         
+               
               localStorage.setItem("signup-data",JSON.stringify(signupDatafromLs))
 
                alert("Signup Successful")
+             
                document.querySelector('.overlay').classList.add('showoverlay')
                document.querySelector('.loginform').classList.add('showloginform')
               //  window.location.href="signin.html"
@@ -148,27 +151,26 @@ let  showbtan=document.querySelector('#login')
 //  login code start here///
 
 
-let userDatafromLS=JSON.parse(localStorage.getItem("signup-data"))||[]
 let form_login=document.querySelector("#form_page")
 
 form_login.addEventListener("submit", (event)=>{
   event.preventDefault()
     let userData={
-      userName:form_login.user_name.value,
-      password:form_login.password.value
+      userName:form_login.user_name1.value,
+      password:form_login.password1.value
       }
 
         
       if(checkEmailPassword(userData.userName,userData.password)==true)
       {
 
-        localStorage.setItem('guest',(userData.userName))
+        
           alert("Login Successful")
           window.location.href="./index.html"
       }
       else
       {
-          alert("Login Faild Wrong User Credentials")
+          alert("Login Failed Wrong User Credentials")
       }
    })
 
@@ -176,13 +178,13 @@ form_login.addEventListener("submit", (event)=>{
              
          
            let check=false
-        userDatafromLS.forEach(function(el){
+           signupDatafromLs.forEach(function(el){
            
            if(el.userName===userName && el.password===password)
            {
                 check=true
            
-                console.log(el.userName,userName,el.password)
+              
            }
        })
 
