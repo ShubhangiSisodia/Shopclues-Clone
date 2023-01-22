@@ -604,5 +604,12 @@ footer > div:nth-child(7) > img {
   width: 20%;
   margin-right: 0;
 }
+
+#login{
+  outline: none;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
 /*footer section css ends here*/
 
