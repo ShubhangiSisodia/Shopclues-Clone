@@ -592,13 +592,13 @@ function displayProducts(data){
         let image=document.createElement("img");
         image.setAttribute("src",element.image);
         let price=document.createElement("h2");
-        price.innerText=element.price;
+        price.innerText=`₹${element.price}`
         let name=document.createElement("h3");
         name.innerText=element.name;
         name.style.color="grey";
         // let more= document.createElement("div");
         let rating=document.createElement("h3");
-        rating.innerText=element.rating;
+        rating.innerText=`★${element.rating}`;
         rating.style.color="orange";
         // let star=document.createElement("img");
         // star.src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Orange_star.svg/1200px-Orange_star.svg.png";
@@ -622,7 +622,7 @@ function displayProducts(data){
 
         card.addEventListener("click",()=>{
             localStorage.setItem("product",JSON.stringify(element));
-            // window.location.href="./product.html;
+        //     window.location.href=";
         })
         count++;
     })
