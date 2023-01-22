@@ -1,7 +1,7 @@
 #header {
-    height: 155px;
-    border: none;
-  }
+  height: 155px;
+  border: none;
+}
   
   * {
     font-family: "Roboto", sans-serif;
@@ -226,6 +226,13 @@
   
   /* Header - End */
 
+#path{
+  background-color: whitesmoke;
+  color: black;
+  margin-top: 170px;
+  
+}
+
 #product-container1{
   width: 75%;
   background-color: white;
@@ -260,7 +267,7 @@
 }
 #main{
   display: flex;
-  margin-top: 250px;
+  margin-top: 50px;
   align-items: flex-start;
 }
 #sort{
@@ -270,6 +277,11 @@
   margin-top: 0;
 }
 
+#sort h3{
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
 #sorthead{
   display: flex;
   justify-content: space-between;
@@ -277,4 +289,8 @@
 #sorthead>h4{
   color: rgb(82, 169, 245);
   margin-right: 7px;
+}
+label{
+  color: #868686;
+  font-size: 13px;
 }
