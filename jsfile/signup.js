@@ -195,12 +195,7 @@ form_login.addEventListener("submit", (event)=>{
         }
       }
       
-      // if(gestName.length>0)
-      // {
-      //   guest.innerText=gestName
-      //   guest.style.color="red"
-
-      // }
+    
 
    let Image=document.querySelector('#link')
       Image.addEventListener('click',()=>{

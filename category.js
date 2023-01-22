@@ -622,7 +622,7 @@ function displayProducts(data){
 
         card.addEventListener("click",()=>{
             localStorage.setItem("product",JSON.stringify(element));
-            window.location.href="./Product/product.html";
+            window.location.href="./product.html";
         })
         count++;
     })
