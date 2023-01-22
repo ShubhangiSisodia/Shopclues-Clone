@@ -606,3 +606,7 @@ footer > div:nth-child(7) > img {
 }
 /*footer section css ends here*/
 
+#manbtn{
+  text-decoration: none;
+  color: white;
+}
