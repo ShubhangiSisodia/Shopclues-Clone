@@ -140,22 +140,59 @@
     <!-- navbar ends here -->
     <div id="main">
       <div id="sort">
-        <h2>Category Filters</h2>
+        <div id="sorthead">
+          <h2>Category Filters</h2>
+          <h4 id="resetsort">Reset All</h4>
+        </div>
         <div>
           <h3>Prices</h3>
-          <input type="checkbox" name="100" value="100">
+          <input type="checkbox" name="100" value="100" class="prices">
           <label for="100">Rs.100 and below</label><br>
-          <input type="checkbox" name="200" value="200">
+          <input type="checkbox" name="200" value="200" class="prices">
           <label for="200">Rs.100- Rs.200</label><br>
-          <input type="checkbox" name="300" value="300">
+          <input type="checkbox" name="300" value="300" class="prices">
           <label for="300">Rs.200- Rs.300</label><br>
-          <input type="checkbox" name="400" value="400">
+          <input type="checkbox" name="400" value="400" class="prices">
           <label for="400">Rs.400 and above</label><br>
+          <hr>
+          <h3>Colour</h3>
+          <input type="checkbox" name="color1" value="white" class="colour">
+          <label for="100">White</label><br>
+          <input type="checkbox" name="color2" value="blue" class="colour">
+          <label for="200">Blue</label><br>
+          <input type="checkbox" name="color3" value="black" class="colour">
+          <label for="300">Black</label><br>
+          <input type="checkbox" name="color4" value="red" class="colour">
+          <label for="400">Red</label><br>
+          <hr>
+          <h3>Type</h3>
+          <input type="checkbox" name="casual" value="Casual" class="type">
+          <label for="100">Casual</label><br>
+          <input type="checkbox" name="formal" value="Formal" class="type">
+          <label for="200">Formal</label><br>
+          <hr>
+          <h3>Size</h3>
+          <input type="checkbox" name="small" value="S" class="size">
+          <label for="100">Small</label><br>
+          <input type="checkbox" name="Medium" value="M" class="size">
+          <label for="200">Medium</label><br>
+          <input type="checkbox" name="300" value="L" class="size">
+          <label for="300">Large</label><br>
+          <input type="checkbox" name="400" value="XL" class="size">
+          <label for="400">Extra Large</label><br>
+          <hr>
+          <h3>Sort By</h3>
+          <input type="checkbox" name="fk" value="S" onclick="sortPrice()">
+          <label for="fk">Increasing Prices</label><br>
+          <input type="checkbox" name="Medium" value="M" onclick="sortRating()">
+          <label for="Medium">Decreasing Ratings</label><br>
+          <hr>
         </div>
 
       </div>
       <div id="product-container1">
         <h2>Shirts For Men</h2>
+        <p><span id="total"></span> products found</p>
         <div id="product-container"></div>
       </div>
     </div>

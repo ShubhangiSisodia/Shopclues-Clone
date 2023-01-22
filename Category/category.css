@@ -231,6 +231,9 @@
   background-color: white;
   margin-top: 0;
 }
+#product-container1>p{
+  color: grey;
+}
 #product-container{
   margin: auto;
   display: grid;
@@ -245,7 +248,7 @@
     border-width: 1px;
     border-radius: 2px;
     padding-bottom: 0;
-    height: 400px;
+    height: 450px;
 }
 #product-container>div>*{
     margin-top: 7px;
@@ -264,4 +267,13 @@
   margin: auto;
   background-color: white;
   margin-top: 0;
+}
+
+#sorthead{
+  display: flex;
+  justify-content: space-between;
+}
+#sorthead>h4{
+  color: rgb(82, 169, 245);
+  margin-right: 7px;
 }
