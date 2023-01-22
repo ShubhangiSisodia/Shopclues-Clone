@@ -612,7 +612,7 @@ function displayProducts(data){
         card.append(image,name,price,rating,fs);
         document.querySelector("#product-container").append(card);
         card.addEventListener("mouseover",()=>{
-            card.style.borderColor="blue";
+            card.style.borderColor="#24a3b5";
             card.style.boxShadow="rgba(0, 0, 0, 0.35) 0px 5px 15px";
             setTimeout(()=>{
                 card.style.borderColor="";

@@ -164,7 +164,7 @@ form_login.addEventListener("submit", (event)=>{
 
         localStorage.setItem('guest',(userData.userName))
           alert("Login Successful")
-          window.location.href="/index.html"
+          window.location.href="./index.html"
       }
       else
       {
@@ -199,8 +199,7 @@ form_login.addEventListener("submit", (event)=>{
 
    let Image=document.querySelector('#link')
       Image.addEventListener('click',()=>{
-        window.location.href="/index.html"
-        console.log('check')
+        window.location.href="./index.html"
       })
 
        
