@@ -5,13 +5,13 @@ A one week project for cloning the **Shopclues.com** website.
 
 ## Contributors
 
-- Shubhangi Sisodia [@ShubhangiSisodia]
+- Shubhangi Sisodia [@ShubhangiSisodia](fw22_0930)
 
-- Shreyansh Jain[@Shreyansh-Jain7]
+- Shreyansh Jain[@Shreyansh-Jain7](fw23_0306)
 
-- Roshan Routh [@RoshanAAS]
+- Roshan Routh [@RoshanAAS](fw23_0011)
 
-- Neelkanth Rao [@Nealrao02]
+- Neelkanth Rao [@Nealrao02](fw22_0944)
 
 
 ## Challanges we faced
